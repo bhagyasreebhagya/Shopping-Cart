@@ -1,0 +1,10 @@
+.box {
+  background-color: rgb(210, 224, 224);
+  width: 300px;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+button {
+  margin-left: 300px;
+}
