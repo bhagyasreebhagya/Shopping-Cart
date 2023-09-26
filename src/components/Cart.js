@@ -4,8 +4,11 @@ import { updateCartItemQuantity, toggleCartItemEditMode,removeItemFromCart } fro
 import style from './Cart.module.css';
 
 const Cart = () => {
+  
   const cartItems = useSelector((state) => state.cart.items);
   const dispatch = useDispatch();
+
+  
 
   const handleEditClick = (item) => {
     dispatch(toggleCartItemEditMode(item.id));

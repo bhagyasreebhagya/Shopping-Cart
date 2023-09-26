@@ -30,3 +30,15 @@ li {
 button {
   margin-left: 10px;
 }
+.notification {
+  position: fixed;
+  top: 5px;
+  right: 10px;
+  background-color: #0afa0a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50%;
+  opacity: 0.9;
+  z-index: 999;
+  transition: opacity 0.3s ease-in-out;
+}
